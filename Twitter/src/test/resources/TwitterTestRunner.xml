@@ -16,6 +16,7 @@
         <classes>
             <class name="testHomePageObjects.TestHomePage"/>
             <class name="testLoginPageObjects.testLoginPage"/>
+            <class name="testSettingsPageObjects.testSettingsPage"/>
 
         </classes>
 
