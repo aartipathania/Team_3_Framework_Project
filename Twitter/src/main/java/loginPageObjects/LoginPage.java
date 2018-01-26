@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends CommonAPI{
-    @FindBy(name = "session[username_or_email]")
+    @FindBy(xpath = "//div[@id='page-container']//fieldset/div[1]/input")
     public static WebElement username;
     @FindBy(name = "session[password]")
     public static WebElement password;
