@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Twitter Automation Test" parallel="false">
+<suite name="Twitter Automation Test" parallel="true">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
@@ -11,15 +11,12 @@
     <parameter name="browserVersion" value="62.0"/>
     <parameter name="url" value="https://twitter.com/"/>
 
-
     <test name = "Twitter Home">
         <classes>
             <class name="testHomePageObjects.TestHomePage"/>
-         <!--   <class name="testLoginPageObjects.testLoginPage"/>
-            <class name="testSettingsPageObjects.testSettingsPage"/>-->
-
+            <class name="testLoginPageObjects.testLoginPage"/>
+            <class name="testSettingsPageObjects.testSettingsPage"/>
         </classes>
-
     </test>
 
 </suite>

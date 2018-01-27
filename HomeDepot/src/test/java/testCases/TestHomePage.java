@@ -32,7 +32,7 @@ public class TestHomePage extends HomePage {
         System.out.println("VerifyApplianceTitle test passed");
     }
     //T3HOM_HP_TC03  Navigate back to Home page after clicking AllDepartment tab
-    @Test (enabled=true)
+    @Test (enabled=false)
     public void verifyBackToHomePage() {
         String actual = objHomePage.returnBackAllDept();
         String expected = "The Home Depot";

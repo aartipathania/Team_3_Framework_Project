@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="AliBaba Automation Test" parallel="false">
+<suite name="HomeDepot Automation Test" parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -16,7 +16,7 @@
              <class name="testCases.TestHomePage"/>
         </classes>
     </test>
-    <test name = "Home Depot 2" preserve-order="true">
+<!--    <test name = "Home Depot 2" preserve-order="true">
         <classes>
            <class name ="testCases.TestLoginPage"/>
         </classes>
@@ -25,8 +25,8 @@
         <classes>
             <class name="testCases.TestSearchPage"/>
         </classes>
-    </test>
-    <test name = "Home Depot 4" preserve-order="true">
+    </test>-->
+<!--    <test name = "Home Depot 4" preserve-order="true">
         <classes>
             <class name = "testCases.TestFooterPage"/>
         </classes>
@@ -45,6 +45,6 @@
         <classes>
             <class name="testKeyword.TestFeatures"/>
         </classes>
-    </test>
+    </test>-->
 
 </suite>

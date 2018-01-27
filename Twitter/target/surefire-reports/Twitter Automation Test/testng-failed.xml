@@ -10,29 +10,15 @@
   <parameter name="url" value="https://twitter.com/"/>
   <test verbose="0" name="Twitter Home(failed)">
     <classes>
-      <class name="testHomePageObjects.TestHomePage">
-        <methods>
-          <include name="verifyTotalLinksHomePage"/>
-          <include name="initializePageObjects"/>
-          <include name="afterEachTestMethod"/>
-          <include name="testNumberOfList"/>
-          <include name="testSportsLink"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-          <include name="closeOut"/>
-        </methods>
-      </class> <!-- testHomePageObjects.TestHomePage -->
       <class name="testLoginPageObjects.testLoginPage">
         <methods>
           <include name="initializePageObjects"/>
+          <include name="testBlankEmailPassword"/>
           <include name="afterEachTestMethod"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
-          <include name="testInvalidEmailInvalidPassword"/>
           <include name="closeOut"/>
         </methods>
       </class> <!-- testLoginPageObjects.testLoginPage -->

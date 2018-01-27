@@ -86,7 +86,7 @@ public class CommonAPI {
     }
     public static WebDriver driver = null;
     private String saucelabs_username = "aartipathania1";
-    private String browserstack_username = "mjislam1";
+    private String browserstack_username = "aartipathania1";
     private String saucelabs_accesskey = "c59131c9-8821-4a81-b468-90769d7c1353";
     private String browserstack_accesskey = "XRGG5ma4V3g4QzRhpMzr";
 
