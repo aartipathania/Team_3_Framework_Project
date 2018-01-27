@@ -1,5 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-.gitignore
 .idea/compiler.xml
 .idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml
 .idea/libraries/Maven__classworlds_classworlds_1_1.xml
@@ -139,15 +138,11 @@ aven_maven_model_2_2_1.xml
 .idea/workspace.xml
 AliBaba/AliBaba.iml
 AliBaba/Extent-Report/
-AliBaba/src/main/java/testHomePageObjects/
-AliBaba/src/main/resources/
 AliBaba/target/
 Cigna/Cigna.iml
 Cigna/target/
 Dice/Extent-Report/
 *screenshots
-Dice/src/main/resources/
-Dice/src/test/java/testHomePageObjects/
 Dice/target/
 Generic/Generic.iml
 Generic/target/
