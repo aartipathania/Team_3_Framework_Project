@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="2" failed="2" ignored="2" total="6" passed="0">
   <reporter-output>
     <line>
@@ -15,16 +16,42 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@a8e6492]]>
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Aarti\Java\ProjectMavenTeam3\Team_3_Framework_Project\Twitter\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite name="Twitter Automation Test" duration-ms="15337" started-at="2018-01-25T05:19:37Z" finished-at="2018-01-25T05:19:52Z">
+    <groups>
+    </groups>
+    <test name="Twitter Home" duration-ms="15337" started-at="2018-01-25T05:19:37Z" finished-at="2018-01-25T05:19:52Z">
+      <class name="testLoginPageObjects.testLoginPage">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="extentSetup" is-config="true" duration-ms="530" started-at="2018-01-24T21:19:37Z" finished-at="2018-01-24T21:19:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e37a7e]]>
+>>>>>>> fbdd71ccf4b268d7d103579ac4c6a65f394cdc87
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
+<<<<<<< HEAD
               <![CDATA[Extent Report DirectoryC:\Users\Rabeka\IdeaProjects\Team_3_Framework_Project\Twitter\target\surefire-reports\html]]>
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
         <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testHomePageObjects.TestHomePage@12f41634]" name="setUp" is-config="true" duration-ms="20546" started-at="2018-01-26T17:49:12Z" finished-at="2018-01-26T17:49:32Z">
+=======
+              <![CDATA[Extent Report DirectoryC:\Aarti\Java\ProjectMavenTeam3\Team_3_Framework_Project\Twitter\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="setUp" is-config="true" duration-ms="11224" started-at="2018-01-24T21:19:37Z" finished-at="2018-01-24T21:19:48Z">
+>>>>>>> fbdd71ccf4b268d7d103579ac4c6a65f394cdc87
           <params>
             <param index="0">
               <value>
@@ -65,17 +92,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePageObjects.TestHomePage@12f41634]" name="startExtent" is-config="true" duration-ms="22" started-at="2018-01-26T17:49:32Z" finished-at="2018-01-26T17:49:32Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[public void testHomePageObjects.TestHomePage.testNumberOfList()]]>
+=======
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="startExtent" is-config="true" duration-ms="12" started-at="2018-01-24T21:19:48Z" finished-at="2018-01-24T21:19:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testLoginPageObjects.testLoginPage.testInvalidEmailInvalidPassword()]]>
+>>>>>>> fbdd71ccf4b268d7d103579ac4c6a65f394cdc87
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="initializePageObjects()[pri:0, instance:testHomePageObjects.TestHomePage@12f41634]" name="initializePageObjects" is-config="true" duration-ms="374" started-at="2018-01-26T17:49:32Z" finished-at="2018-01-26T17:49:32Z">
           <reporter-output>
           </reporter-output>
@@ -97,12 +133,28 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=testNumberOfList status=FAILURE method=TestHomePage.testNumberOfList()[pri:0, instance:testHomePageObjects.TestHomePage@12f41634] output={null}]]]>
+=======
+        <test-method status="PASS" signature="initializePageObjects()[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="initializePageObjects" is-config="true" duration-ms="118" started-at="2018-01-24T21:19:48Z" finished-at="2018-01-24T21:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method status="PASS" signature="testInvalidEmailInvalidPassword()[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="testInvalidEmailInvalidPassword" duration-ms="2190" started-at="2018-01-24T21:19:48Z" finished-at="2018-01-24T21:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailInvalidPassword -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="afterEachTestMethod" is-config="true" duration-ms="1758" started-at="2018-01-24T21:19:51Z" finished-at="2018-01-24T21:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidEmailInvalidPassword status=SUCCESS method=testLoginPage.testInvalidEmailInvalidPassword()[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8] output={null}]]]>
+>>>>>>> fbdd71ccf4b268d7d103579ac4c6a65f394cdc87
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="closeOut()[pri:0, instance:testHomePageObjects.TestHomePage@12f41634]" name="closeOut" is-config="true" duration-ms="1" started-at="2018-01-26T17:50:13Z" finished-at="2018-01-26T17:50:13Z">
           <reporter-output>
           </reporter-output>
@@ -305,6 +357,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeOut -->
+=======
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="closeOut" is-config="true" duration-ms="0" started-at="2018-01-24T21:19:52Z" finished-at="2018-01-24T21:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testLoginPageObjects.testLoginPage@23d2a7e8]" name="generateReport" is-config="true" duration-ms="46" started-at="2018-01-24T21:19:52Z" finished-at="2018-01-24T21:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+>>>>>>> fbdd71ccf4b268d7d103579ac4c6a65f394cdc87
       </class> <!-- testLoginPageObjects.testLoginPage -->
     </test> <!-- Twitter Home -->
   </suite> <!-- Twitter Automation Test -->

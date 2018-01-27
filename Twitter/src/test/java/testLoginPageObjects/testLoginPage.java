@@ -17,22 +17,31 @@ public class testLoginPage extends LoginPage {
         objLoginPage = PageFactory.initElements(driver, LoginPage.class);
     }
     //T3TWI_LP_TC01 verify Login with blank email and blank password
-   // @Test
+    @Test
     public void testBlankEmailPassword(){
         objHomePage.goToLoginPage();
         String actual = objLoginPage.blankEmailPassword();
         String expected = "The username and password you entered did not match our records. Please double-check and try again.";
         Assert.assertTrue(actual.contains(expected));
-        System.out.println("testFirstSportsImage test passed");
+        System.out.println("testBlankEmailPassword test passed");
     }
     //T3TWI_LP_TC02 verify Login with invalid email and blank password
-    //@Test
+    @Test
     public void testInvalidEmailBlankPassword(){
         objHomePage.goToLoginPage();
         String actual = objLoginPage.invalidEmailBlankPassword();
         String expected = "The username and password you entered did not match our records. Please double-check and try again.";
         Assert.assertTrue(actual.contains(expected));
-        System.out.println("testFirstSportsImage test passed");
+        System.out.println("testInvalidEmailBlankPassword test passed");
+    }
+    //T3TWI_LP_TC03 verify Login with blank email and invalid password
+    @Test
+    public void testblankEmailInvalidPassword(){
+        objHomePage.goToLoginPage();
+        String actual = objLoginPage.blankEmailInvalidPassword();
+        String expected = "The username and password you entered did not match our records. Please double-check and try again.";
+        Assert.assertTrue(actual.contains(expected));
+        System.out.println("testblankEmailInvalidPassword test passed");
     }
     //T3TWI_LP_TC03 verify Login with invalid email and invalid password
     @Test
@@ -41,6 +50,6 @@ public class testLoginPage extends LoginPage {
         String actual = objLoginPage.invalidEmailInvalidPassword();
         String expected = "The username and password you entered did not match our records. Please double-check and try again.";
         Assert.assertTrue(actual.contains(expected));
-        System.out.println("testFirstSportsImage test passed");
+        System.out.println("testInvalidEmailInvalidPassword test passed");
     }
 }

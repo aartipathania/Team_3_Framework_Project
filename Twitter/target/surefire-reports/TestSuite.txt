@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 15, Failures: 3, Errors: 0, Skipped: 12, Time elapsed: 187.142 s <<< FAILURE! - in TestSuite
 testNumberOfList(testHomePageObjects.TestHomePage)  Time elapsed: 35.964 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
@@ -44,3 +45,6 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\Rabeka\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
 Session ID: db391e43c6b4228bdf984f1903fea5ed
 
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.203 s - in TestSuite
+>>>>>>> fbdd71ccf4b268d7d103579ac4c6a65f394cdc87
